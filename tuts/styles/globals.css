@@ -21,9 +21,9 @@ a {
 .logo {
   font-size: 25px;
   margin-top: -10px;
-  padding: 0 4rem ;
+  padding: 0 4rem;
 }
-.nav{
+.nav {
   display: flex;
   justify-content: space-between;
 }
@@ -31,8 +31,29 @@ a {
   display: flex;
   margin: 1rem 4rem;
 }
-.links a{
-  margin-left: 4rem ;
+.links a {
+  margin-left: 4rem;
+}
+.blog {
+  display: flex;
+  /* justify-content: space-between; */
+  margin: 0 2rem;
+}
+.blog h2{
+  background-color: pink;
+  width: 190px;
+  text-align: center;
+  padding: 1rem;
+  height: 70px;
+  border-radius: 10%;
+
+}
+.bg{
+  background-color: orange;
+  padding: 3rem ;
+  color: #fff;
+  border-radius: 1rem ;
+  margin-left: 3rem;
 }
 .footer {
   border-top: 0.4px solid #eee;

@@ -1,8 +1,13 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
+import Head from "next/head";
 const About = () => {
   return (
     <div className="padding">
+      <Head>
+      <title>About page</title>
+    </Head>
       <h2>About Page</h2>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit possimus,
@@ -20,8 +25,9 @@ const About = () => {
           <a>Go to HomePage</a>
         </Link>
       </h4>
+      {/* <Image src='https://unsplash.com/photos/yoIIPcrWhjI' width='600' height='500' alt="Image" /> */}
     </div>
   );
 };
 
-export default About;
+export default About ;

@@ -8,7 +8,11 @@ import Link from "next/link";
 export default function Home() {
   return (
     <>
+    <Head>
+      <title>Home page</title>
+    </Head>
       <div className="padding">
+        
         <h1>Home page</h1>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
